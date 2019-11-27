@@ -1,0 +1,25 @@
+  <p>
+    Enter quantity of questions you want to see (range from 1 to
+    {{ allQuestions }})
+  </p>
+  <p *ngIf="novalidRange">Invalid data! ..try again</p>
+  <input
+    type="number"
+    name="numberQuestionsFromUser"
+    placeholder="Your number is.."
+    #num
+    [(ngModel)]="num.value"
+  />
+  <button (click)="keyUpNumber(+num.value)">Click to submit</button>
+
+<ul>
+  <li *ngFor="let quest of arrOfObjQ; index as i">
+    <strong *ngIf="!quest.isUrl; else imgQ"
+      ><span>{{ i + 1 }} =></span> {{ quest.strQ }}</strong
+    >
+    <ng-template #imgQ>
+      <span>{{ i + 1 }} =></span>
+      <img src="{{ quest.imgUrl }}" alt="" />
+    </ng-template>
+  </li>
+</ul>

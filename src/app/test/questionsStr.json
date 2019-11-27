@@ -1,0 +1,20 @@
+[
+  "1. What is the difference between string | string[] and string & string[].Make own examples. What is Partial",
+  "2. What is namespace. How to declare? Purpose",
+  "3. Modules. Export default. Which module resolutions available. Difference",
+  "4. Write 2 decorators: first with parameters, another without. (@enumerable(true), @enumerable)",
+  "5. What is enum. What values it might contain. Use cases",
+  "6. How to apply types for 3rd party libs (JQuery symbol $ should be global and typed)",
+  "7. What is the infer keyword. Use cases",
+  "8. What is generic. Write your own generic collection. Make the generic accept only, classes which implement specific interface",
+  "9. What is generic. Give example of keyof keyword using generics.",
+  "10. How to use overloading for functions in typescript",
+  "11. Create a class which interface declares types for constructor.",
+  "12. Give example of generic GoF pattern “builder” using typescript",
+  "13. Define your own type guard. Show different use cases using typeof, in, is, \"instanceof\"",
+  "14. Condition types. Examples. Distributive conditional types.",
+  "15. Predefined conditional types. Type inference in conditional types",
+  "16. What is declaration file.",
+  "17. What is tsconfig.json? Main properties.",
+  "18. What is --lib param in tsconfig. paths? moduleResolution - difference and purposes."
+]
