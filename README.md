@@ -1,7 +1,7 @@
 # Quiz 
-*choose number of questions, all of them will be chosen randomly without repeating
+*choose number of questions, all of them will be chosen randomly without repeating*
 
-To see the app use this link https://sergiosmdev.github.io/sipmle-quiz/
+**To see the app use this link** https://sergiosmdev.github.io/sipmle-quiz/
 
 First Angular App
 
