@@ -3,7 +3,7 @@
 
 **To see the app use this link** https://sergiosmdev.github.io/sipmle-quiz/
 
-First Angular App
+The very first and short Angular App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
 
